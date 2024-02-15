@@ -34,7 +34,7 @@ fun main() {
         var process: Process? = null
         try {
             process = ProcessBuilder().apply {
-                COMMAND
+                command(COMMAND)
             }.start()
             val sg = StreamGobbler(process.inputStream) { x: String? ->
                 println(x)
