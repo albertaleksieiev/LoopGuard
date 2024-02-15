@@ -2,6 +2,10 @@
 # LoopGuard
 
 LoopGuard is an application designed to ensure your application remains running by automatically restarting it every 600 seconds (10 minutes). This is particularly useful for ensuring high availability and reliability of critical applications.
+## Customize
+
+To change a command to run you need to change `COMMAND` variable. To change a time window change `LIFETIME_SEC` variable.
+
 
 ## How to Compile
 
@@ -28,3 +32,4 @@ pm2 start "java -jar main.jar"
 ```
 
 This will allow PM2 to automatically restart LoopGuard if it ever crashes, providing an extra layer of stability for your applications.
+
