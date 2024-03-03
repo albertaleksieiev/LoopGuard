@@ -9,7 +9,7 @@ To change a command to run you need to change `COMMAND` variable. To change a ti
 
 ## How to Compile
 
-To compile LoopGuard, you need to have Kotlin compiler installed. Use the following command to compile the source code into a runnable JAR file:
+To compile LoopGuard, you need to have [Kotlin](https://kotlinlang.org/docs/command-line.html) compiler installed. Use the following command to compile the source code into a runnable JAR file:
 
 ```bash
 kotlinc main.kt -include-runtime -d main.jar
